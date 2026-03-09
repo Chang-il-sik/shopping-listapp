@@ -1,0 +1,33 @@
+<!-- Created: 2026-03-09 -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>쇼핑 리스트</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🛒 쇼핑 리스트</h1>
+
+    <div class="input-row">
+      <input
+        type="text"
+        id="itemInput"
+        placeholder="아이템 입력..."
+        autocomplete="off"
+      />
+      <button id="addBtn">추가</button>
+    </div>
+
+    <div class="summary" id="summary"></div>
+
+    <ul id="itemList"></ul>
+
+    <button class="clear-btn" id="clearCheckedBtn">완료 항목 삭제</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
